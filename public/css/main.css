@@ -1,0 +1,77 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.searchUser{
+    text-align: center;
+}
+
+th,td{
+    padding: 5px;
+}
+
+.userResult, .formRegister{
+    margin-top: 2em;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 50px;
+    border-radius: 3px;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+.formRegister label, .formRegister input{
+    margin-bottom: 15px;
+}
+
+.btnBack{
+    text-align: center;
+    margin-top: 10px;
+}
+
+#formPassword{
+    margin-right: 9px;
+}
+
+.btnSuccess{
+    text-align: center;
+}
+
+.btnRegister{
+    text-align: center;
+}
+
+.btnRegister button{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.userResult button{
+    color: #000;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+.userResult button:hover, .searchUser button:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.searchUser button{
+    color: #000;
+    background-color: #fff;
+    padding: 2px;
+    border: 1px solid black;
+}
+
+.footer{
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+}
